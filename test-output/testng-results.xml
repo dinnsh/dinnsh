@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Application Suite Test" duration-ms="25294" started-at="2019-03-22T04:30:17Z" finished-at="2019-03-22T04:30:43Z">
+    <groups>
+      <group name="sanity">
+        <method signature="LoginTest.Login(java.lang.String, java.lang.String)[pri:0, instance:com.training.TestCases.LoginTest@67b92f0a]" name="Login" class="com.training.TestCases.LoginTest"/>
+      </group> <!-- sanity -->
+      <group name="sanity,Regression">
+        <method signature="SubmitOrderTest.SubmitOrder(java.lang.String, java.lang.String)[pri:0, instance:com.training.TestCases.SubmitOrderTest@2b9627bc]" name="SubmitOrder" class="com.training.TestCases.SubmitOrderTest"/>
+      </group> <!-- sanity,Regression -->
+    </groups>
+    <test name="Regression Test" duration-ms="25294" started-at="2019-03-22T04:30:17Z" finished-at="2019-03-22T04:30:43Z">
+      <class name="com.training.TestCases.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.TestCases.LoginTest@67b92f0a]" name="setUp" is-config="true" duration-ms="13837" started-at="2019-03-22T10:00:18Z" finished-at="2019-03-22T10:00:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.training.TestCases.LoginTest@67b92f0a]" name="Login" duration-ms="2612" started-at="2019-03-22T10:00:32Z" data-provider="ExcelDP" finished-at="2019-03-22T10:00:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.training.TestCases.LoginTest@67b92f0a]" name="TearDown" is-config="true" duration-ms="868" started-at="2019-03-22T10:00:35Z" finished-at="2019-03-22T10:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.training.TestCases.LoginTest -->
+      <class name="com.training.TestCases.SubmitOrderTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.TestCases.SubmitOrderTest@2b9627bc]" name="setUp" is-config="true" duration-ms="6220" started-at="2019-03-22T10:00:36Z" finished-at="2019-03-22T10:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SubmitOrder(java.lang.String, java.lang.String)[pri:0, instance:com.training.TestCases.SubmitOrderTest@2b9627bc]" name="SubmitOrder" duration-ms="2" started-at="2019-03-22T10:00:42Z" data-provider="ExcelDP" finished-at="2019-03-22T10:00:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[P1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method status="PASS" signature="TarDown()[pri:0, instance:com.training.TestCases.SubmitOrderTest@2b9627bc]" name="TarDown" is-config="true" duration-ms="734" started-at="2019-03-22T10:00:42Z" finished-at="2019-03-22T10:00:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TarDown -->
+      </class> <!-- com.training.TestCases.SubmitOrderTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Test Application Suite Test -->
+</testng-results>
