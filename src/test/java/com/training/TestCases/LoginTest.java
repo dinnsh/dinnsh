@@ -19,27 +19,15 @@ public class LoginTest extends BaseTest{
 		super();
 	}
 	
-	@BeforeMethod
-	public void setUp()
-	{
-		browserSetUp();
-		loginPage = new LoginPage();
-	}
-	
 	@Test(dataProviderClass=com.training.Utilities.ExcelUtility.class, dataProvider = "ExcelDP",groups={"sanity"})
 	public void Login(String UserName, String Password)
 	{
+		loginPage = new LoginPage();
 		System.out.println(UserName+"  "+Password);
 		loginPage.enterUserName(UserName);
 		ExcelUtility.captureScreenshot();
 		registerPage = loginPage.clickRegister();
 		registerPage.enterFirstName(UserName);
 		ExcelUtility.captureScreenshot();
-	}
-	
-	@AfterMethod
-	public void TearDown()
-	{
-		driver.quit();
 	}
 }

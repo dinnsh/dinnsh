@@ -7,7 +7,7 @@
 
 <test thread-count="1" name="Regression Test">
     <classes>
-      <class name="com.training.TestCases.LoginTest"/>
+      <!-- <class name="com.training.TestCases.LoginTest"/> -->
       <class name="com.training.TestCases.SubmitOrderTest"/>
     </classes>
   </test> <!-- Test -->
